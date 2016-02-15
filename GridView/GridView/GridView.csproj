@@ -36,10 +36,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
-    <Compile Include="GridCell.cs" />
+    <Compile Include="Cells\ComplexGridCell.cs" />
+    <Compile Include="Cells\GridCell.cs" />
+    <Compile Include="GridCellViewModel.cs" />
     <Compile Include="GridView.cs" />
-    <Compile Include="LayoutAlignmentExtension.cs" />
-    <Compile Include="NumericExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
